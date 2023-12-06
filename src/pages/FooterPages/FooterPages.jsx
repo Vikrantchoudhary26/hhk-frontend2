@@ -332,156 +332,116 @@ const FooterPages = () => {
             {pageType === "privacypolicy" && (
               <p className="text-xs">
                 <h1 className="font-dmsans uppercase text-sm  sm:text-xl font-semibold">
-                  Privacy Policy
+                  Privacy & Policy
                 </h1>
                 <br />
                 <span className="font-semibold">
-                  This Privacy Policy of Harsh hasthkala describes how Harsh
-                  Hasthkala manages personal information and respects your
-                  privacy. This policy may be amended from time to time.{" "}
+                  INFORMATION WE COLLECT:
                 </span>
                 <br />
                 <br />
-                <span className="font-semibold">1.</span> Collection of Personal
-                Information: As a visitor to the Site, you can engage in many
-                activities without providing any Personal Information. Depending
-                upon the activity, some of the information that we ask you to
-                provide is identified as mandatory and some as voluntary. If you
-                do not provide the mandatory data with respect to a particular
-                activity, you will not be able to engage in that activity.
-                However, when you register to use a Harsh hasthkala and order
-                products as a Harsh hasthkala customer, in order to provide the
-                services to you, we may collect your contact information such as
-                your name, phone numbers, address and email address as well as
-                profile information, including your password, details about your
-                purchases and details about your interactions with us. <br />
-                <br />
-                <span className="font-semibold">2.</span> Updating your Personal
-                Information: You have the right to access and correct, or delete
-                your Personal Information and privacy preferences at any time.
-                This may be accomplished by clicking on the link, "My Profile",
-                where you can view and make changes to most of your Personal
-                Information immediately. For security purposes, certain Personal
-                Information can only be changed by contacting support. We will
-                respond to your request promptly within a reasonable time.{" "}
+                Contact information: We might collect your name, email, mobile number, phone number, street, city, state, pin code, country, and IP address.
                 <br />
                 <br />
-                <span className="font-semibold">3.</span> How your Personal
-                Information is used: Harsh hasthkala collects your information
-                in order to provide services to you, comply with our legal
-                obligations, and to improve our products and services. We do not
-                sell, rent or share your personally identifiable information to
-                or with third parties in any way other than as disclosed in this
-                Privacy Policy. Harsh Hasthkala may use this information to{" "}
+                Payment and billing information: We might collect your billing name, billing address, and payment method when you make a purchase. We NEVER collect your credit card number or credit card expiry date or other details about your credit card on our website. Credit card information will be obtained and processed by our online payment partner.
                 <br />
                 <br />
-                · Process your financial transactions; Service your order.{" "}
+                Other information: If you use our website, we may collect information about your IP address and the browser you are using. We might look at what site you came from, the duration of time spent on our website, pages accessed, or what site you visit when you leave us. We might also collect the type of mobile device you are using, or the version of the operating system your computer or device is running.
                 <br />
                 <br />
-                · Respond to customer service requests, questions, and concerns.{" "}
+                <span className="font-semibold">
+                  We collect information in different ways:
+                </span>
                 <br />
                 <br />
-                · Administer your account. <br />
-                <br />
-                · Send you the requested product or service information. <br />
-                <br />
-                · Keep you informed about special offers and services of Harsh
-                hasthkala and selected third parties. <br />
-                <br />
-                · Administer promotions and notify you of important events.{" "}
+                We collect information directly from you. We collect information directly from you when you register for an event or buy tickets. We also collect information if you post a comment on our websites or ask us a question through phone or email.
                 <br />
                 <br />
-                · Investigate, prevent, or take action regarding illegal
-                activities and/or violations of our Terms of Service. <br />
-                <br />
-                · Meet our research and product/service development needs and to
-                improve our Site, services, and offerings. <br />
-                <br />
-                · Customize your experience, including targeting our services
-                and offerings to you. <br />
-                <br />
-                In certain situations, Harsh hasthkala may be required to
-                disclose personal data in response to lawful requests by public
-                authorities. Where required by law (like to comply with a
-                warrant, court order, or legal notice served on Harsh
-                hasthkala), and when we believe that disclosure is necessary to
-                protect our rights, avoid litigation, protect your safety or the
-                safety of others, investigate fraud, and/or respond to a
-                government request. We may also disclose information about you
-                if we determine that such disclosure should be made for reasons
-                of national security, law enforcement, or other issues of public
-                importance. <br />
-                <br />
-                <span className="font-semibold">4.</span> Information sharing
-                with service providers: Harsh hasthkala uses one or more outside
-                payment processing companies to bill you for our goods and
-                services. To the best of our knowledge, these companies do not
-                retain, share, store or use personally identifiable information
-                for any other purpose. We also share Personal Information with
-                certain companies that perform services on our behalf. We only
-                share the Personal Information which is necessary for them to
-                perform those services. We require any company with which we may
-                share Personal Information to protect that data in a manner
-                consistent with this policy and to limit the use of such
-                Personal Information to the performance of services for Harsh
-                hasthkala. We do not sell or otherwise provide Personal
-                Information to other companies for the marketing of their own
-                products or services. <br />
-                <br />
-                <span className="font-semibold">5.</span> Data Retention: We
-                will retain your information for as long as your account is
-                active, your information is needed to provide you services, or
-                as required to fulfill our legal obligations. If you wish to
-                delete your account or request that we no longer use your
-                information to provide you services contact us at support@ Harsh
-                hasthkala.com. We will respond to your request within reasonable
-                time. We will retain and use your information as necessary to
-                comply with our legal obligations, resolve disputes and enforce
-                our agreements. <br />
-                <br />
-                <span className="font-semibold">6.</span> Unsubscribe/Opt-Out:
-                You may opt out of receiving Harsh Hasthkala’s email updates,
-                newsletters and/or partner emails by clicking on the "My
-                Profile" link on the website and making the appropriate
-                selections. The choice to opt out of such communications is also
-                generally available during the sign-up process. Harsh hasthkala
-                will still contact you when there are changes to the Terms of
-                Service or Submitter Terms of Service, as applicable. In
-                addition, we will still send you service-related announcements
-                including, but not limited to, a registration email,
-                order-related notifications and emails automatically triggered
-                by actions you took on the Site. Generally, you may not opt out
-                of these communications, which are not promotional in nature.{" "}
+                We collect information from you passively. We use tracking tools like Google Analytics, Google Webmaster, browser cookies, and web beacons for collecting information about your usage of our website.
                 <br />
                 <br />
-                <span className="font-semibold">7.</span> Protection of your
-                Personal Information: The Personal Information that you provide
-                in connection with the use of the Site is protected in several
-                ways. It resides on secure servers that only selected Harsh
-                hasthkala personnel have access to via password. Your Personal
-                Information is encrypted whenever it is transmitted to Harsh
-                hasthkala. When you enter sensitive information (such as credit
-                card numbers) on our registration or order forms, we encrypt
-                that information using transport layer security technology. We
-                strive to protect the Personal Information submitted to us, both
-                during transmission and once we receive it. However, no method
-                of transmission over the Internet, or method of electronic
-                storage, is 100% secure. While we take into account the
-                sensitivity of the Personal Information we collect, process, and
-                store, and the current state of technology to use these measures
-                protect your Personal Information, we cannot guarantee its
-                absolute security. If you have any questions, doubts or
-                confusion in regard to any of the terms set out here in the
-                privacy policy, please seek clarifications from us through email
-                (support@ Harsh hasthkala.com). We will get back to you within a
-                reasonable time. <br />
+                We get information about you from third parties. For example, if you use an integrated social media feature on our websites. The third-party social media site will give us certain information about you. This could include your name and email address.
                 <br />
-                <span className="font-semibold">8.</span> In case of a query,
-                concern, or complaint in relation to compliance issues related
-                to Consumer Protection (E-Commerce) Rules, Consumer Protection
-                Act, and Information Technology (Sensitive Personal Data or
-                Information) Rules, please contact at grievance@ Harsh
-                hasthkala.com. <br />
+                <br />
+                <span className="font-semibold">
+                  USE OF YOUR PERSONAL INFORMATION:
+                </span>
+                <br />
+                <br />We use the information to contact you: We might use the information you provide to contact you for confirmation of a purchase on our website or other promotional purposes.<br />
+                <br />
+                We use the information to respond to your requests or questions. We might use your information to confirm your registration for a package.
+                <br />
+                <br />
+                We use the information to improve our products and services. We might use your information to customize your experience with us. This could include displaying content based on your preferences.
+                <br />
+                <br />
+                We use the information to look at site trends and customer interests. We may use your information to make our website and products better. We may combine information we get from you with information about you we get from third parties.
+                <br />
+                <br />
+                We use the information for security purposes. We may use the information to protect our company, our customers, or our websites.
+                <br />
+                <br />
+                We use the information for marketing purposes. We might send you information about special promotions or offers. We might also tell you about new features or products. These might be our offers or products, or third-party offers or products we think you might find interesting. Or, for example, if you buy tickets from us we’ll enroll you in our newsletter.
+                <br />
+                <br />
+                We use the information to send you transactional communications. We might send you emails or SMS about your account or a ticket purchase.
+                <br />
+                <br />
+                We use information as otherwise permitted by law.
+                <br />
+                <br />
+                <span className="font-semibold">
+                  SHARING OF INFORMATION WITH THIRD PARTIES:
+                </span>
+                <br />
+                <br />
+
+                We will share information with third parties who perform services on our behalf. We share information with vendors who help us manage our online registration process or payment processors or transactional message processors.
+                <br />
+                <br />
+                We may share information if we think we have to comply with the law or to protect ourselves. We will share information to respond to a court order or subpoena. We may also share it if a government agency or investigatory body requests it. Or we might also share information when we are investigating potential fraud.
+                <br />
+                <br />
+                We may share information with any successor to all or part of our business. For example, if part of our business is sold, we may give our customer list as part of that transaction.
+                <br />
+                <br />
+                <span className="font-semibold">
+                  EMAIL OPT-OUT:
+                </span>
+                <br />
+                <br />
+                You can opt out of receiving our marketing emails. To stop receiving our promotional emails, please email us at harshhasthkala@gmail.com. It may take about ten days to process your request. Even if you opt out of getting marketing messages, we will still be sending you transactional messages through email and SMS about your purchases.
+                <br />
+                <br />
+                <span className="font-semibold">
+                  THIRD-PARTY SITES:
+                </span>
+                <br />
+                <br />
+                If you click on one of the links to third-party websites, you may be taken to websites we do not control. This policy does not apply to the privacy practices of those websites. Read the privacy policy of other websites carefully. We are not responsible for these third-party sites.
+                <br />
+                <br />
+                <span className="font-semibold">
+                  JURISDICTION:
+                </span>
+                <br />
+                <br />
+                If you choose to visit the website, your visit and any dispute over privacy are subject to this Policy and the website’s terms of use. In addition to the foregoing, any disputes arising under this Policy shall be governed by the laws of India.
+                <br />
+                <br />
+                <span className="font-semibold">
+                  GRIEVANCE OFFICER:
+                </span>
+                <br />
+                <br />
+                By Information Technology Act 2000 and rules made there under, the name and contact details of the Grievance Officer are provided below:
+                <br />
+                <br />
+                Mr. Dikshant Tamrakar, (Head of Operations)
+                <br />
+                1137,Sanjeevaninagar, garha, Jabalpur (M.P)482003
+                <br />
+                Email: harshhasthkala@gmail.com
                 <br />
               </p>
             )}
@@ -670,6 +630,46 @@ const FooterPages = () => {
                 hearts of your loved ones and leave a lasting impression.
                 Together, let's create cherished moments and memories with no
                 more boring gifts, only special surprises for your special ones!
+              </p>
+            )}
+
+            {pageType === "shipping&delivery" && (
+              <p className="text-xs">
+                <h1 className="font-dmsans uppercase text-sm sm:text-xl font-semibold">
+                  Shipping and Delivery
+                </h1>
+                <br />
+                Thank you for shopping with Harsh Hasthkala ! We are committed to providing you with a seamless and enjoyable shopping experience. Please take a moment to review our shipping policy. <br />
+                <br />
+                Orders are processed within 1-2 business days after payment is confirmed.
+                Orders placed on weekends or holidays will be processed on the next business day.
+                Estimated Delivery Time:8-10 working days.
+                <br />
+                <br />
+                The average delivery time is 8-10 working days from the date of order processing.
+                Please note that delivery times may vary depending on your location and may be affected by external factors such as customs clearance, holidays, and unforeseen circumstances.
+                <br />
+                <br />
+                Shipping costs are calculated based on the weight and dimensions of the products in your order.
+                <br />
+                You can view the shipping cost for your order during the checkout process.
+                <br />
+                <br />
+                Once your order is shipped, you will receive a confirmation email with a tracking number.
+                You can track the status of your order by entering the provided tracking number on the carrier's website.
+                <br />
+                <br />
+                Please ensure that the shipping address provided during checkout is accurate and complete.
+                We are not responsible for orders shipped to incorrect addresses provided by the customer.
+                <br />
+                <br />
+                Our carriers will make multiple attempts to deliver your package. If no one is available to receive the package, a notice will be left with further instructions.
+                <br />
+                <br />
+                Harsh Hasthkala is not responsible for lost or stolen packages after they have been marked as delivered by the carrier. Please ensure that the delivery location is secure.
+                <br />
+                <br />
+                If you have any questions or concerns about your order's shipping status, please contact our customer support team at harshhasthkala@gmail.com
               </p>
             )}
           </div>
