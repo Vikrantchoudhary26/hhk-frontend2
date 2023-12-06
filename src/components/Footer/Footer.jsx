@@ -2,6 +2,8 @@ import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import Logo from '../../assets/logo.png'
 import {BiPhone, BiSolidEnvelope, BiSolidPhone} from 'react-icons/bi'
+import { FaLocationDot } from "react-icons/fa6";
+
 const Footer = () => {
 
     const navigate = useNavigate();
@@ -57,6 +59,7 @@ const Footer = () => {
                         <div className='text-sm text-gray font-dmsans '>
                             <p className='mt-2 flex items-center'><BiSolidPhone size={17} className='mr-1'/> +91 7987600654</p>
                             <p className='mt-2 flex items-center'><BiSolidEnvelope size={17} className='mr-1'/> harshhasthkala@gmail.com</p>
+                            <p className='mt-2 flex items-center'><FaLocationDot size={17}className='mr-1'/>1137, sanjeevani nagar, garha jabalpur, pin 482003</p>
                         </div>
                     </div>
 
@@ -128,6 +131,16 @@ const Footer = () => {
                             <p className="text-neutral-600 dark:text-neutral-200"
                             >Terms & Condition</p>
                         </div>
+                        <div className="mb-4 cursor-pointer uppercase text-[13px] hover:text-darkred " onClick={() => {
+                            navigate('/footer-pages', {
+                                state: {
+                                    type: "shipping&delivery"
+                                }
+                            })
+                        }}>
+                            <p className="text-neutral-600 dark:text-neutral-200"
+                            >Shipping and Delivery</p>
+                        </div>
                         <div className=' cursor-pointer text-[13px] uppercase hover:text-darkred ' onClick={() => {
                             navigate('/footer-pages', {
                                 state: {
@@ -158,7 +171,7 @@ const Footer = () => {
                 <a
                     className="font-semibold text-neutral-600 dark:text-neutral-400"
                     href="https://tailwind-elements.com/"
-                >&nbsp;Harsh Hasthkala Pvt Ltd.</a>
+                >&nbsp;Harsh Hasthkala</a>
             </div>
         </footer>
     )
