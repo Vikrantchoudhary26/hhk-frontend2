@@ -75,10 +75,7 @@ const FooterPages = () => {
                 situation, we will require you to send a photo and video within
                 5 days from the date of delivery. You may also opt for a resend
                 only if the request is accepted. Resends will take 5-9 business
-                days, just like placing a new order. <br />
-                <br />
-                BULK ORDER FORM <br />
-                Take reference from www.indigifts website for the form
+                days, just like placing a new order.
               </p>
             )}
             {pageType === "faqs" && (
