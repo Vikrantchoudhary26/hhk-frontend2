@@ -59,7 +59,8 @@ const Footer = () => {
                         <div className='text-sm text-gray font-dmsans '>
                             <p className='mt-2 flex items-center'><BiSolidPhone size={17} className='mr-1'/> +91 7987600654</p>
                             <p className='mt-2 flex items-center'><BiSolidEnvelope size={17} className='mr-1'/> harshhasthkala@gmail.com</p>
-                            <p className='mt-2 flex items-center'><FaLocationDot size={17}className='mr-1'/>1137, sanjeevani nagar, garha jabalpur, pin 482003</p>
+                            <p className='mt-2 flex items-center'><FaLocationDot size={17}className='mr-1'/>1137, sanjeevani nagar,</p>
+                            <span className='mt-2 ml-5'> garha jabalpur, pin 482003</span>
                         </div>
                     </div>
 
