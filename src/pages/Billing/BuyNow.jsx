@@ -135,7 +135,7 @@ const BuyNow = () => {
     const handleOpenRazorpay = (data) => {
 
         const options = {
-            key: 'rzp_test_QjwunCBCAXXLPv',
+            key: process.env.RAZORPAY_ID,
             amount: Number(data.amount),
             currency: data.currency,
             order_id: data.id,
