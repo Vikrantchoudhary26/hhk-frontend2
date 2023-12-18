@@ -175,7 +175,7 @@ const Billing = () => {
     const handleOpenRazorpay = (data) => {
 
         const options = {
-            key: process.env.RAZORPAY_ID,
+            key: process.env.REACT_APP_RAZORPAY_ID,
             amount: Number(data.amount),
             currency: data.currency,
             order_id: data.id,
@@ -374,6 +374,8 @@ const Billing = () => {
                         </div>
                         <div className='mt-4'>
                             <button className='bg-darkred text-white uppercase w-full h-10 rounded-3xl text-[14px] font-dmsans flex items-center justify-center' onClick={() => {
+                                        console.log("REACT_APP_RAZORPAY_ID", process.env.REACT_APP_RAZORPAY_ID);
+
                                 if (cod) {
                                     handlePlaceOrder();
                                 } else {

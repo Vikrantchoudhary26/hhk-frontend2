@@ -33,15 +33,16 @@ function App() {
   const [user, setUser] = useState(null);
 
   const getUser = async () => {
+
     try {
-      const url = `http://localhost:5500/auth/login/success`;
-      const { data } = await axios.get(url, { withCredentials: true }).catch((err) => {
-        console.log(err, 24);
-      })
-      sessionStorage.setItem('googlelogin',true);
+      const url = '/auth/login/success';
+      const response = await axios.get(url, { withCredentials: true });
+    
+      const data = response.data;
+      sessionStorage.setItem('googlelogin', true);
       setUser(data.user._json);
-    } catch (err) {
-      console.log(err);
+    } catch (error) {
+      console.error(error);
     }
   }
 

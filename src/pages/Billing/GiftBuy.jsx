@@ -68,13 +68,13 @@ const GiftBuyNow = () => {
         }
     }, [auth, location])
 
-    const [orderName,setOrderName] = useState(null);
-    useEffect(()=>{
-        if(buynowdata){
+    const [orderName, setOrderName] = useState(null);
+    useEffect(() => {
+        if (buynowdata) {
             let n = `${buynowdata[0].box.name} & ${buynowdata[1].product.name} & ${buynowdata[2].card.name}`
             setOrderName(n);
         }
-    },[buynowdata])
+    }, [buynowdata])
 
     useEffect(() => {
         if (totalPrice) {
@@ -103,13 +103,13 @@ const GiftBuyNow = () => {
         setPaymentMode("Online");
         setStatus("Pending");
     }
-    const [orderPlaced,setOrderPlaced] = useState(false);
+    const [orderPlaced, setOrderPlaced] = useState(false);
     const dispatch = useDispatch();
     const handlePlaceOrder = () => {
         console.log(firstname, country, state, city, email, phone, address, zipcode);
         if (firstname && country && state && city && email && phone && address && zipcode) {
             var usertype = auth?.usertype;
-            dispatch(orderItem(firstname + "" + lastname, country, state, city, email, phone, address, zipcode, usertype, uid, status, buynowdata, paymentMode,orderName, parseFloat((parseInt(totalPrice) + parseInt(shipping)) - discount || 0).toFixed(2))).then(() => {
+            dispatch(orderItem(firstname + "" + lastname, country, state, city, email, phone, address, zipcode, usertype, uid, status, buynowdata, paymentMode, orderName, parseFloat((parseInt(totalPrice) + parseInt(shipping)) - discount || 0).toFixed(2))).then(() => {
                 errorToast("Order Created Successfully");
                 setOrderPlaced(true);
                 setTimeout(() => {
@@ -125,7 +125,7 @@ const GiftBuyNow = () => {
     const handleOpenRazorpay = (data) => {
 
         const options = {
-            key: process.env.RAZORPAY_ID,
+            key: process.env.REACT_APP_RAZORPAY_ID,
             amount: Number(data.amount),
             currency: data.currency,
             order_id: data.id,
@@ -344,6 +344,7 @@ const GiftBuyNow = () => {
                         </div>
                         <div className='mt-4'>
                             <button className='bg-darkred text-white uppercase w-full h-10 rounded-3xl text-[14px] font-dmsans flex items-center justify-center' onClick={() => {
+                                console.log("REACT_APP_RAZORPAY_ID", process.env.REACT_APP_RAZORPAY_ID);
                                 if (cod) {
                                     handlePlaceOrder();
                                 } else {

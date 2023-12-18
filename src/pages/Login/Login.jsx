@@ -224,10 +224,10 @@ const Login = () => {
   const googleLogin = () => {
     sessionStorage.setItem('google_login', true);
     window.open(
-      // `https://backend.hhkgifts.com/auth/google/callback`,
+      `https://backend.hhkgifts.com/auth/google/callback`,
       // ` http://localhost:3000/auth/google/callback`,
       // `http://localhost:5000/profile`,
-       ` http://localhost:5500/auth/google/callback`,
+      //  ` http://localhost:5500/auth/google/callback`,
 
       "_self"
     );
