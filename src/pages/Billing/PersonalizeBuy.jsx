@@ -113,7 +113,7 @@ const PersonalizeBuy = () => {
         setPaymentMode("Online");
         setStatus("Pending");
     }
-    const [orderPlaced,setOrderPlaced] = useState(false);
+    const [orderPlaced, setOrderPlaced] = useState(false);
     const dispatch = useDispatch();
     const handlePlaceOrder = () => {
         if (firstname && lastname && country && state && city && email && phone && address && zipcode) {
@@ -154,7 +154,7 @@ const PersonalizeBuy = () => {
     const handleOpenRazorpay = (data) => {
 
         const options = {
-            key: process.env.RAZORPAY_ID,
+            key: process.env.REACT_APP_RAZORPAY_ID,
             amount: Number(data.amount),
             currency: data.currency,
             order_id: data.id,
@@ -176,14 +176,14 @@ const PersonalizeBuy = () => {
 
     }
 
-    useEffect(()=>{
-        if(buynowdata){
+    useEffect(() => {
+        if (buynowdata) {
             handleCartData(buynowdata)
         }
-    },[buynowdata])
+    }, [buynowdata])
 
-    const [orderName,setOrdername] = useState(null);
-    const handleCartData=(cart)=>{
+    const [orderName, setOrdername] = useState(null);
+    const handleCartData = (cart) => {
         setOrdername(cart.name);
     }
 
@@ -381,6 +381,8 @@ const PersonalizeBuy = () => {
                         </div>
                         <div className='mt-4'>
                             <button className='bg-darkred text-white uppercase w-full h-10 rounded-3xl text-[14px] font-dmsans flex items-center justify-center' onClick={() => {
+                                console.log("REACT_APP_RAZORPAY_ID", process.env.REACT_APP_RAZORPAY_ID);
+
                                 if (cod) {
                                     handlePlaceOrder();
                                 } else {
