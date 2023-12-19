@@ -374,7 +374,6 @@ const Billing = () => {
                         </div>
                         <div className='mt-4'>
                             <button className='bg-darkred text-white uppercase w-full h-10 rounded-3xl text-[14px] font-dmsans flex items-center justify-center' onClick={() => {
-                                        console.log("REACT_APP_RAZORPAY_ID", process.env.REACT_APP_RAZORPAY_ID);
 
                                 if (cod) {
                                     handlePlaceOrder();
