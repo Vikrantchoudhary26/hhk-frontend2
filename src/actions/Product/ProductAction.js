@@ -121,31 +121,34 @@ export const getTrendingProducts = () => {
 }
 
 
-export const getRelatedProducts = (keyword) => {
-  return async (dispatch) => {
-    dispatch({ type: relatedConstants.RELATED_REQUEST })
-    const res = await axios.get(`/related-products/${keyword}`).catch((err) => {
-      if (err.response.status === 500) {
-        const { message } = err.response.data.message;
-        dispatch({
-          type: relatedConstants.RELATED_FAILURE,
-          payload: {
-            message,
-          }
-        })
-      }
-    })
-    if (res.status === 200) {
-      const { products } = res.data;
+export const getRelatedProducts = (keyword) => async (dispatch) => {
+  const encodedKeyword = encodeURIComponent(keyword);
+  try {
+    dispatch({ type: relatedConstants.RELATED_REQUEST });
+
+    const response = await axios.get(`/related-products/${encodedKeyword}`);
+    const { products } = response.data;
+
+    dispatch({
+      type: relatedConstants.RELATED_SUCCESS,
+      payload: {
+        relatedproducts: products,
+      },
+    });
+  } catch (error) {
+    if (error.response && error.response.status === 500) {
+      const { message } = error.response.data;
       dispatch({
-        type: relatedConstants.RELATED_SUCCESS,
+        type: relatedConstants.RELATED_FAILURE,
         payload: {
-          relatedproducts: products,
-        }
-      })
+          message,
+        },
+      });
+    } else {
+      console.error('Error fetching related products:', error);
     }
   }
-}
+};
 
 
 
