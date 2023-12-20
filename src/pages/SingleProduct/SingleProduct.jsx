@@ -158,6 +158,7 @@ const SingleProduct = () => {
       state: {
         total: product?.price,
         data: product,
+        discount: Number(product?.price) - Number(product?.discountprice) || 0,
         quantity: 1,
         customImage,
         customText,
