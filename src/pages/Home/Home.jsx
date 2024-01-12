@@ -138,7 +138,7 @@ const Home = () => {
 
             <div className="flex pr-2 sm:pr-8">
               <Link to={"/listing"}>
-                <button className="bg-[#dd2745] text-[#ffffff] text-[12px] sm:text-lg sm:w-[180px] h-[30px] w-[110px] sm:h-[65px] rounded-3xl">
+                <button className="bg-[#dd2745] text-[#ffffff] text-[12px] sm:text-lg sm:w-[180px] h-[30px] w-[90px] sm:h-[65px] rounded-3xl">
                   EXPLORE
                 </button>
               </Link>
@@ -166,7 +166,7 @@ const Home = () => {
           </div>
           <div className="flex flex-col lg:flex-row pl-5 pr-5 sm:pl-20 sm:pr-20 max-[600px]:w-full ">
             <div className="flex flex-col justify-center sm:justify-start items-center sm:mr-8  sm:w-[360px] w-full">
-              <div className="w-[300px] sm:w-[360px] h-[220px] sm:h-[300px] mb-5">
+              <div className="max-w-[300px] sm:maz-w-[360px] h-[220px] sm:h-[300px] mb-5">
                 <img className="h-full w-full" src={Blog_Flowers} alt="" />
               </div>
               <div className="pl-5 pr-5 sm:pl-0 sm:pr-0">
@@ -185,7 +185,7 @@ const Home = () => {
                     navigate("/blog");
                   }}
                 >
-                  Learn more >
+                  Learn more
                 </p>
               </div>
             </div>
@@ -211,16 +211,16 @@ const Home = () => {
                     navigate("/blog");
                   }}
                 >
-                  Learn more >
+                  Learn more
                 </p>
               </div>
             </div>
 
             <div className="lg:hidden xl:flex flex-col w-full sm:w-[360px] justify-center items-center mt-8 sm:mt-0">
-              <div className="w-[300px] h-[180px] sm:w-[360px] sm:h-[240px] mb-5">
+              <div className="max-w-[300px] h-[180px] sm:max-w-[360px] sm:h-[240px] mb-5">
                 <img className="h-full w-full" src={Blog_gifts} alt="" />
               </div>
-              <div className="w-[300px] h-[180px] sm:w-[360px] sm:h-[240px]">
+              <div className="max-w-[300px] h-[180px] sm:max-w-[360px] sm:h-[240px]">
                 <img className="h-full w-full" src={Blog_jewelery} alt="" />
               </div>
             </div>

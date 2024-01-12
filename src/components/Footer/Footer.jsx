@@ -51,20 +51,20 @@ const Footer = () => {
 
             <div className="mx-6 py-10 text-center md:text-left">
                 <div className="grid-1 grid gap-1 md:grid-cols-2 lg:grid-cols-5">
-                    <div className="flex flex-col items-center sm:mr-20">
+                    <div className="flex flex-col items-center md:items-start">
                         <h6
                             className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start font-dmsans text-darkred">
                             <div className='w-20 h-20'><img className='h-full w-full' src={Logo} alt="" /></div>
                         </h6>
                         <div className='text-sm text-gray font-dmsans '>
-                            <p className='mt-2 flex items-center'><BiSolidPhone size={17} className='mr-1'/> +91 7987600654</p>
-                            <p className='mt-2 flex items-center'><BiSolidEnvelope size={17} className='mr-1'/> harshhasthkala@gmail.com</p>
-                            <p className='mt-2 flex items-center'><FaLocationDot size={17}className='mr-1'/>1137, sanjeevani nagar,</p>
+                            <p className='mt-2 flex items-center justify-center md:justify-start'><BiSolidPhone size={17} className='mr-1'/> +91 7987600654</p>
+                            <p className='mt-2 flex items-center justify-center md:justify-start'><BiSolidEnvelope size={17} className='mr-1'/> harshhasthkala@gmail.com</p>
+                            <p className='mt-2 flex items-center justify-center md:justify-start'><FaLocationDot size={17}className='mr-1'/>1137, sanjeevani nagar,</p>
                             <span className='mt-2 ml-5'> garha jabalpur, pin 482003</span>
                         </div>
                     </div>
 
-                    <div className='sm:ml-5 mt-5'>
+                    <div className=' mt-5'>
                         <h6
                             className="mb-4 flex justify-center font-semibold uppercase md:justify-start font-dmsans">
                             Quick Links
@@ -158,9 +158,9 @@ const Footer = () => {
                         <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start font-dmsans">
                             SUBSCRIBE
                         </h6>
-                        <div className='flex justify-center lg:justify-start items-center h-10 text-sm w-full pr-5'>
+                        <div className='block sm:flex justify-center lg:justify-start items-center h-10 text-sm w-full pr-5'>
                             <input type="text" placeholder='Enter Your Email Address' className='text-xs pl-3 h-full border rounded min-w-[200px] sm:min-w-[300px]' />
-                            <button className='font-dmsans bg-darkred rounded-full text-white h-full min-w-[100px] ml-2'>Subscribe</button>
+                            <button className=' mt-4 sm:mt-0 font-dmsans bg-darkred rounded-full text-white h-full min-w-[100px] ml-2'>Subscribe</button>
                         </div>
                         
                     </div>

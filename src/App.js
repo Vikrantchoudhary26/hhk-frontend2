@@ -20,7 +20,6 @@ import Saved from "./pages/Saved/Saved";
 import Wishlist from "./pages/WishList/WishList";
 import { loginWithGoogle } from "./actions/User/UserAction";
 import axios from './helpers/axios';
-import { api } from './helpers/baseUrl'
 import BuyNow from "./pages/Billing/BuyNow";
 import ContactUsPage from "./pages/ContactUs/ContactUsPage";
 import GiftBox from "./pages/GiftBox/GiftBox";
