@@ -391,7 +391,7 @@ const Login = () => {
                       Password
                     </span>
                   </div>
-                  <div className="text-xs flex items-center justify-center mt-4 mb-4">
+                  {/* <div className="text-xs flex items-center justify-center mt-4 mb-4">
                     <span className="h-[1px] w-full bg-gray mr-1"></span>
                     or
                     <span className="h-[1px] w-full bg-gray ml-1"></span>
@@ -408,7 +408,7 @@ const Login = () => {
                       />
                     </span>
                     Login with Google
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
@@ -614,7 +614,7 @@ const Login = () => {
                   >
                     {loading ? <Spinner /> : `Sign Up`}
                   </button>
-                  <div className="text-xs flex items-center justify-center mt-4 mb-4">
+                  {/* <div className="text-xs flex items-center justify-center mt-4 mb-4">
                     <span className="h-[1px] w-full bg-gray mr-1"></span>
                     or
                     <span className="h-[1px] w-full bg-gray ml-1"></span>
@@ -631,7 +631,7 @@ const Login = () => {
                       />
                     </span>
                     Login with Google
-                  </button>
+                  </button> */}
                 </div>
               </form>
             </div>
