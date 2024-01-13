@@ -9,12 +9,11 @@ import GrayStar from '../../assets/graystar.png';
 const NewlyAddedProducts = () => {
 
     const products = useSelector(state => state.initialData.newproducts);
-    console.log("=====products=", products);
 
     return (
         <>
             {
-                products.length > 0
+                products?.length > 0
                     ? <div className='flex flex-col lg:flex-row w-full pl-5 pr-5 sm:pl-20 sm:pr-20 justify-center items-center'>
                         <div className='flex'>
                             <Link to={`/product/${products[0]?.slug}`}>

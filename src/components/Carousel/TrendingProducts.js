@@ -9,7 +9,7 @@ import GrayStar from '../../assets/graystar.png';
 
 const TrendingProducts = () => {
     const navigate = useNavigate();
-    const [products, setProducts] = useState(null);
+    const [products, setProducts] = useState([]);
     const trendingProducts = useSelector(state => state.products.trendingProducts);
 
     useEffect(() => {
@@ -17,7 +17,6 @@ const TrendingProducts = () => {
             setProducts(trendingProducts);
         }
     }, [trendingProducts])
-    console.log("Trending Products=====", products);
     return (
         <div className='relative splide2'>
             <div className='w-full text-lg sm:text-3xl mb-5 pl-5 sm:pl-20 flex flex-col'>
@@ -26,7 +25,7 @@ const TrendingProducts = () => {
             </div>
 
             {
-                products.length > 0
+                products?.length > 0
                     ? <Splide aria-label="My Favorite Images" className='pl-5 pr-5 sm:pl-20 sm:pr-20 pt-2 pb-2'>
                         {
                             products?.map((p, key) => (
